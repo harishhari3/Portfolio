@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harish's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="./images/harishhh.jpg" alt="Harish's photo">
+    <h1>Maguluri Harish</h1>
+    <p><strong>Hello!</strong> I'm Harish, a Computer Science Engineering student with a passion for DevOps, Data Analytics, and Software Development.</p>
+    <a href="haritomm (1).pdf" download><button class="download-btn">Download My Resume</button></a>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p><strong>Hello!</strong> I'm Harish, a Computer Science Engineering student from Lovely Professional University. Passionate about DevOps, Data Analytics, Software Development, and working in collaborative teams!</p>
+    <p>I have developed a strong foundation in software engineering, cloud technologies, and data-driven solutions. With a keen interest in DevOps, I strive to implement continuous integration and deployment pipelines to streamline processes. My experience with SQL, NoSQL databases, and analytics tools like Tableau has helped me design and deploy meaningful dashboards for diverse datasets.</p>
+    <p>In addition to my technical skills, I enjoy participating in hackathons and solving real-world problems with a creative, analytical approach. I am always seeking new challenges to further develop my skills and contribute to impactful projects.</p>
+  </section>
+  <section>
+    <h2>Soft Skills</h2>
+    <div class="soft-skills">
+      <h3>Interpersonal and Professional Skills</h3>
+      <ul>
+        <li>Strong communication and presentation skills</li>
+        <li>Effective time management and multitasking</li>
+        <li>Adaptability in a fast-paced, evolving work environment</li>
+        <li>Teamwork and collaboration with diverse teams</li>
+        <li>Problem-solving and critical thinking in complex scenarios</li>
+        <li>Leadership and mentoring junior members</li>
+      </ul>
+    </div>
+  </section>
+  
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><span>Java</span></div>
+      <div><img src="https://www.r-project.org/logo/Rlogo.png" alt="R"><span>R</span></div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"><span>Docker</span></div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes"><span>Kubernetes</span></div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"><span>Git</span></div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"><span>GitHub</span></div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL"><span>SQL</span></div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"><span>MongoDB</span></div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tableau/tableau-original.svg" alt="Tableau"><span>Tableau</span></div>
+      <div><img src="https://cdn-icons-png.flaticon.com/512/732/732220.png" alt="Excel"><span>Excel</span></div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/devicon/devicon-original.svg" alt="DevOps"><span>DevOps</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="slider">
+      <div class="project" onclick="openModal('modal1')">
+        <img src="https://www.tableau.com/sites/default/files/pages/tableaulogo_highres.png" alt="Tableau Project">
+        <strong>Healthcare Dashboard Using Tableau</strong>
+      </div>
+      <div class="project" onclick="openModal('modal2')">
+        <img src="https://miro.medium.com/v2/resize:fit:1358/1*e9n0LE3iYXkCIzTPkYZx9g.png" alt="DevOps Pipeline">
+        <strong>DevOps CI/CD Pipeline</strong>
+      </div>
+      <div class="project" onclick="openModal('modal3')">
+        <img src="https://cdn-icons-png.flaticon.com/512/2331/2331966.png" alt="E-commerce DB">
+        <strong>E-commerce SQL Analytics</strong>
+      </div>
+      <div class="project" onclick="openModal('modal4')">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="IoT MongoDB">
+        <strong>IoT Sensor Data Analytics</strong>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Modals -->
+  <div class="modal" id="modal1">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal1')">&times;</span>
+      <h3>Healthcare Dashboard Using Tableau</h3>
+      <p>Built an interactive dashboard analyzing heart failure patient data with various charts, KPIs, and trendlines for deeper insights. This project helped in understanding the impact of lifestyle factors on heart disease progression.</p>
+      <p><strong>Technologies Used:</strong> Tableau, Data Visualization, KPIs, Dashboards, Health Data Analysis</p>
+      <p><strong>Project Highlights:</strong></p>
+      <ul>
+        <li>Created an interactive dashboard with patient demographics, survival rates, and treatment effectiveness.</li>
+        <li>Used Tableau's inbuilt features to filter and drill-down into datasets for improved decision-making.</li>
+        <li>Optimized the dashboard performance for large datasets.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="modal2">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal2')">&times;</span>
+      <h3>DevOps CI/CD Pipeline</h3>
+      <p>Implemented a complete CI/CD pipeline for automated application deployment using GitHub, Docker, Kubernetes, and AWS. This pipeline ensures faster development cycles, automated testing, and smoother deployments.</p>
+      <p><strong>Technologies Used:</strong> GitHub Actions, Docker, Kubernetes, AWS, Jenkins, CI/CD, Cloud Infrastructure</p>
+      <p><strong>Project Highlights:</strong></p>
+      <ul>
+        <li>Developed a fully automated pipeline for code testing, building, and deployment using GitHub Actions and Jenkins.</li>
+        <li>Containerized applications using Docker, deployed on AWS using Kubernetes for scalability and high availability.</li>
+        <li>Improved release time by 50%, enabling more frequent software updates.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="modal3">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal3')">&times;</span>
+      <h3>E-commerce SQL Analytics</h3>
+      <p>Developed SQL queries for business intelligence to generate detailed reports on top-selling products, customer demographics, and purchasing patterns. The database optimization techniques helped in increasing query efficiency.</p>
+      <p><strong>Technologies Used:</strong> SQL, MySQL, Data Reporting, Data Analytics, E-commerce</p>
+      <p><strong>Project Highlights:</strong></p>
+      <ul>
+        <li>Created SQL reports for tracking sales performance and customer purchase history.</li>
+        <li>Optimized queries using indexing and joins to improve performance for large e-commerce data.</li>
+        <li>Automated the reporting process to allow real-time sales insights for stakeholders.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="modal4">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal4')">&times;</span>
+      <h3>IoT Sensor Data Analytics</h3>
+      <p>Built an IoT sensor data monitoring system using MongoDB, including real-time data analysis and visualization. The use of TTL indexes and aggregation pipelines ensured efficient data retrieval for large datasets from IoT sensors.</p>
+      <p><strong>Technologies Used:</strong> MongoDB, IoT, Data Aggregation, Time Series Data, Sensor Monitoring</p>
+      <p><strong>Project Highlights:</strong></p>
+      <ul>
+        <li>Implemented MongoDB’s TTL (Time-To-Live) indexes to manage time-series data efficiently.</li>
+        <li>Built real-time data aggregation pipelines to monitor sensor readings like temperature, humidity, and air quality.</li>
+        <li>Enabled real-time alerts and data visualization for IoT monitoring applications.</li>
+      </ul>
+    </div>
+  </div>
+
+  <section>
+    <h2>Certificates</h2>
+    <div class="cert">
+      <p>Java Programming Certification - Coursera</p>
+    </div>
+    <div class="cert">
+      <p>Python for Data Science Certification - edX</p>
+    </div>
+    <div class="cert">
+      <p>Microsoft Azure Fundamentals - Microsoft Learn</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <div class="edu">B.Tech CSE, Lovely Professional University – CGPA 7.1</div>
+    <div class="edu">Intermediate, Bhashyam College – 81%</div>
+    <div class="edu">Matriculation, Bhashyam Public School – 100%</div>
+  </section>
+
+  <section>
+    <h2>Extra Curriculars</h2>
+    <p>GISS Summit 2023, Coding Ninjas Hackathon, Silver Medal in Cricket Tournament.</p>
+    <p>Volunteered at the Annual Tech Fest as a speaker and mentor for budding software engineers. Participated in environmental sustainability initiatives and led a campaign on reducing plastic waste.</p>
+    <p>Actively involved in university’s coding club, mentoring junior students and organizing coding challenges.</p>
+  </section>
+
+  <footer>
+    <p>Contact: <a href="mailto:harishmaguluri3@gmail.com">harishmaguluri3@gmail.com</a> | <a href="https://github.com/harishhari3">GitHub</a> | <a href="https://www.linkedin.com/in/maguluri-harish">LinkedIn</a></p>
+  </footer>
+
+  <script>
+    function openModal(id) {
+      document.getElementById(id).style.display = 'flex';
+    }
+    function closeModal(id) {
+      document.getElementById(id).style.display = 'none';
+    }
+  </script>
+
+</body>
+</html>
